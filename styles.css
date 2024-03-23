@@ -29,9 +29,14 @@ textarea {
     top: 7px;
     left: 11px;
     font-size: 12px;
+    visibility: hidden;
 }
 
 input:focus::placeholder,
 textarea:focus::placeholder {
     color: transparent;
+}
+
+.input-container:focus-within label {
+    visibility: visible;
 }
