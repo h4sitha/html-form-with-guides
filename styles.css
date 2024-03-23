@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: min(90%, 500px);
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+input,
+textarea {
+    appearance: none;
+    width: 100%;
+    padding: 10px 10px;
+}
