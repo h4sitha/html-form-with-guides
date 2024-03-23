@@ -75,3 +75,8 @@ input:not(:placeholder-shown) + label,
 textarea:not(:placeholder-shown) + label {
     visibility: visible;
 }
+
+input:not(:placeholder-shown):invalid {
+    border-color: lightcoral;
+    background-color: hsla(0, 79%, 72%, 0.1);
+}
