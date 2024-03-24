@@ -85,3 +85,12 @@ input:not(:focus):not(:placeholder-shown):invalid {
     border-color: lightcoral;
     background-color: hsla(0, 79%, 72%, 0.1);
 }
+
+/* input:invalid:not(:placeholder-shown):focus {
+    border-color: lightcoral;
+    background-color: hsla(0, 79%, 72%, 0.1);
+} */
+
+label {
+    color: gray;
+}
