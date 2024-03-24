@@ -94,3 +94,8 @@ input:not(:focus):not(:placeholder-shown):invalid {
 label {
     color: gray;
 }
+
+input::placeholder,
+textarea::placeholder {
+    color: hsla(0, 0%, 50%, 0.5);
+}
