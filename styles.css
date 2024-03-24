@@ -65,18 +65,23 @@ textarea:valid {
     background-color: hsla(120, 73%, 75%, 0.1);
 }
 
-input:focus:invalid,
+/* input:focus:invalid,
 textarea:focus:invalid {
     border-color: lightcoral;
     background-color: hsla(0, 79%, 72%, 0.1);
-}
+} */
 
 input:not(:placeholder-shown) + label,
 textarea:not(:placeholder-shown) + label {
     visibility: visible;
 }
 
-input:not(:placeholder-shown):invalid {
+/* input:not(:placeholder-shown):invalid {
+    border-color: lightcoral;
+    background-color: hsla(0, 79%, 72%, 0.1);
+} */
+
+input:not(:focus):not(:placeholder-shown):invalid {
     border-color: lightcoral;
     background-color: hsla(0, 79%, 72%, 0.1);
 }
